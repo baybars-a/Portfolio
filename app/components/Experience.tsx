@@ -36,17 +36,28 @@ const Experience: React.FC<ExperienceProps> = ({ data, isEditMode, onUpdate }) =
                   >{exp.company}</p>
                 </div>
               ))}
-              {colIndex === 0 && (
-                 <div className="pt-2">
-                    <a href={data.resumeUrl} className="inline-block bg-white text-black font-semibold py-3 px-8 rounded-lg hover:bg-gray-200 transition-colors">
-                        RESUME
-                    </a>
-                    {isEditMode && <input type="text" value={data.resumeUrl} onChange={e => onUpdate('experience.resumeUrl', e.target.value)} className="w-full bg-gray-800 text-white p-1 rounded mt-2 text-xs" aria-label="Resume URL" />}
-                </div>
-              )}
+              {/* REMOVE the conditional rendering of the button here */}
+              {/* {colIndex === 0 && ( ... )} */}
             </div>
           ))}
         </div>
+
+        {/* --- ADD THE BUTTON/URL INPUT AFTER THE GRID --- */}
+        <div className="mt-12 pt-2">
+            <a href={data.resumeUrl} className="inline-block bg-white text-black font-semibold py-3 px-8 rounded-lg hover:bg-gray-200 transition-colors">
+                RESUME
+            </a>
+            {isEditMode && (
+                <input 
+                    type="text" 
+                    value={data.resumeUrl} 
+                    onChange={e => onUpdate('experience.resumeUrl', e.target.value)} 
+                    className="w-full bg-gray-800 text-white p-1 rounded mt-2 text-xs" 
+                    aria-label="Resume URL" 
+                />
+            )}
+        </div>
+        {/* ------------------------------------------------ */}
       </div>
     </section>
   );

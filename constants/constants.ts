@@ -58,7 +58,7 @@ export const initialData: PortfolioData = {
 },
   ],
   about: {
-    imageUrl: "./baybars.JPG",
+    imageUrl: "./baybars.png",
     text1: "Computer Science student at York University. Aspiring software developer with a passion for creating efficient and innovative solutions. Experienced in various programming languages and eager to contribute to impactful projects.",
     text2: "",
   },
