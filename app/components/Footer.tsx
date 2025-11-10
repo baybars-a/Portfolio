@@ -1,6 +1,5 @@
 import React from 'react';
 import { LinkedInIcon } from './icons/LinkedInIcon';
-import { DribbbleIcon } from './icons/DribbbleIcon';
 import { MailIcon } from './icons/MailIcon';
 import { PortfolioData } from '../../types';
 
