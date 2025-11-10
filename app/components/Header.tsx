@@ -10,7 +10,7 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
     <header className="py-8 md:py-12">
       <nav className="flex justify-between items-center">
         <a 
-          href="#" 
+          href="baybars.ca" 
           className="text-xl md:text-2xl font-bold text-white hover:text-gray-300 transition-colors"
         >
           {data.name}
