@@ -15,7 +15,7 @@ const About: React.FC<AboutProps> = ({ data, isEditMode, onUpdate }) => {
           <div className="md:w-1/3">
             <div className="aspect-square rounded-full overflow-hidden w-48 h-48 md:w-64 md:h-64 mx-auto border-4 border-white/20 shadow-lg">
               <img 
-                src="./baybars.jpg"
+                src="./baybars.png"
                 alt="Baybars Al-Zibdeh"
                 className="w-full h-full object-cover"
               />
