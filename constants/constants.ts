@@ -75,6 +75,9 @@ export const initialData: PortfolioData = {
       ],
       [
         { role: 'Databricks Fundamentals', company: 'Databricks' },
+        { role: 'Foundational C# with Microsoft', company: 'Microsoft' },
+
+
       ]
     ],
   },
