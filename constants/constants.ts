@@ -26,9 +26,9 @@ export const initialData: PortfolioData = {
     },
     {
       title: 'DBSCAN Clustering',
-      description: 'Mobile application for a new fintech startup.',
-      imageUrl: './DBSCAN_search.gif',
-      tags: ['Python', 'Pandas', 'NumPy', 'Matplotlib' ],
+      description: 'I used DBSCAN clustering to analyze 1,114 Canadian weather stations, grouping them by location (2D) and then by 5 dimensions (location plus mean, max, and min temperature). This identified clusters with similar geographical and climatic features.',
+      imageUrl: './canada.png',
+      tags: ['Python','scikit-learn','pandas', 'numpy', 'matplotlib.pyplot', 'mpl_toolkits.basemap' ],
     },
     {
       title: 'Multiple Linear Regression',
